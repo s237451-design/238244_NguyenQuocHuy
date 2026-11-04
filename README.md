@@ -44,3 +44,14 @@ docker run -d -p 3000:80 --name frontend-app quochuy2k5/frontend:latest
 ```
 ## 7. Trien khai Frontend tren Render
 - URL Frontend: https://frontend-238244-nguyenquochuy.onrender.com
+## 8. Hoan thanh trien khai Backend API va cap nhat README
+
+## 9. Bang thong tin nop bai tong the
+- Link Repository GitHub: https://github.com/s237451-design/238244_NguyenQuocHuy
+- URL Frontend (Render): https://frontend-238244-nguyenquochuy.onrender.com
+- URL Backend API (Render): https://backend-238244-nguyenquochuy.onrender.com
+- Endpoint Health check: https://backend-238244-nguyenquochuy.onrender.com/health
+- Endpoint Devices API: https://backend-238244-nguyenquochuy.onrender.com/api/devices
+- Docker Frontend Image: quochuy2457/frontend-devices:latest
+- Docker Backend Image: quochuy2457/backend-devices:latest
+- Database: MongoDB Atlas (238244_NguyenQuocHuy)
