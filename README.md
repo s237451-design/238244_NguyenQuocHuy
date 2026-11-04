@@ -42,3 +42,5 @@ docker run -d -p 5000:5000 --name backend-app -e PORT=5000 -e MONGODB_URI="your_
 docker pull quochuy2k5/frontend:latest
 docker run -d -p 3000:80 --name frontend-app quochuy2k5/frontend:latest
 ```
+## 7. Trien khai Frontend tren Render
+- URL Frontend: https://frontend-238244-nguyenquochuy.onrender.com
