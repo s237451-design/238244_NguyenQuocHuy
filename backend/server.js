@@ -20,6 +20,14 @@ mongoose.connect(process.env.MONGODB_URI)
     console.error('Lỗi kết nối MongoDB:', err.message);
   });
 
+  });
+
+app.get('/', (req, res) => {
+  res.send('Backend API is running!');
+});
+
+// 8. Endpoint GET /health kiểm tra trạng thái hoạt động backend
+app.get('/health', (req, res) => {
 // 8. Endpoint GET /health kiểm tra trạng thái hoạt động backend
 app.get('/health', (req, res) => {
   res.status(200).json({
